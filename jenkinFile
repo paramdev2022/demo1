@@ -5,7 +5,7 @@ pipeline{
         stage(build){
             steps{
                sh 'mvn clean install -DskipTests'
-               echo "cleaning"
+               echo "cleaning 1 "
             }
         }
         stage(test){
